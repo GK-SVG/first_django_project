@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text analyser</title>
+</head>
+<body>
+<form action='/analyze' method='get'>
+    <h1>Write to analys text</h1>
+    <label>
+        <textarea name="text" style="width: 1277px; height: 117px;"></textarea>
+    </label><br>
+    <input type="checkbox" name="removepunc">Remove punctuation<br>
+    <input type="checkbox" name="fullcaps">Uppercase<br>
+    <input type="checkbox" name="spaceremover">Spaceremover<br>
+    <input type="checkbox" name="charcounter">CharcterCounter<br>
+    <button type="submit">analyze text</button>
+</form>
+</body>
+</html>
